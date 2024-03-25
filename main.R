@@ -3,6 +3,7 @@
 # ----------------------------------------------
 # A Guide to the Analysis of Air Pollution Data is on:
 # https://bookdown.org/david_carslaw/openair/
+# https://davidcarslaw.com/files/openairmanual.pdf
 # ----------------------------------------------
 
 # ----------------------------------------------
