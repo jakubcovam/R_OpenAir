@@ -1,7 +1,9 @@
-# INSTALACE KNIHOVEN PRO OPENAIR
+# Openair package in R
+
+This project it created based on the openair manual (https://davidcarslaw.com/files/openairmanual.pdf).
 
 1. openair a openairmaps
-- v R nainstaluj nové balíky
+- install packages in RStudio
 	> install.packages("openair")
 	> install.packages("openairmaps")
 
