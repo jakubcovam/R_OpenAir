@@ -1,29 +1,21 @@
 # Openair package in R
 
-This project it created based on the openair manual (https://davidcarslaw.com/files/openairmanual.pdf).
+This project it created based on the openair manual (https://davidcarslaw.com/files/openairmanual.pdf) and web page (https://bookdown.org/david_carslaw/openair/). Before analysing the data, you need to install and import some packages. The code is running in RStudio.
 
-1. openair a openairmaps
-- install packages in RStudio
-	> install.packages("openair")
-	> install.packages("openairmaps")
+1) Install packages:
+  > install.packages("openair")
+ 
+  > install.packages("openairmaps")
+ 
+  > install.packages("tidyverse")
+ 
+  > install.packages("worldmet")
 
-2. tidyverse
-- v terminále spusť:
-	> sudo apt-get install -y libxml2-dev libcurl4-openssl-dev libssl-dev
-- v R nainstaluj nový balík "tidyverse"
-	> install.packages("tidyverse")
+2) Import libraries:
+  > library(openair)
 
-3. worldmet
-- v R nainstaluj nový balík "Rcpp"
-	> install.packages("Rcpp")
-	
-- v terminále spusť:
-	> sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable
-	> sudo apt-get update
-	> sudo apt-get install libgdal-dev libgeos-dev libproj-dev 
-	
-- v R nainstaluj nový balík "terra"
-	> install.packages("terra")
-	
-- v R nainstaluj nový balík "worldmet"
-	> install.packages("worldmet")
+  > library(openairmaps)
+
+  > library(tidyverse)
+
+  > library(worldmet)
